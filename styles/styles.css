@@ -1,0 +1,66 @@
+p{
+    font-size:32px;
+    color:blueviolet;
+}
+
+div{
+    width:500px;
+    height:500px;
+    background-color:bisque;
+    }
+
+    #meuDIV_ID{
+        height:100px;
+        background-color:brown;
+    }
+
+    .meuDIV_Classe{
+        height:70px;
+    }
+
+
+    .meuDIV_Classe_v2{
+        width:100px;
+    }
+
+    p.meuDIV_Classe{
+        color:white;
+    }
+
+    /* quando nao sobrepor, tem que colocar o !important: */
+    p.meuDIV_Classe>p{
+        color:white !important;
+    }
+
+    #mt{
+        margin-top:25%;
+    }
+
+    #mb{
+        margin-bottom:25%;
+    }
+
+    #mr{
+        margin-right:25%;
+    }
+
+    #ml{
+        margin-left:25%;
+    }
+
+    #margem{
+        margin: 25% 25% 25% 25%;
+    }
+
+
+
+
+
+
+
+
+    
+
+
+    
+
